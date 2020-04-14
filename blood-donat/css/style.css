@@ -1,0 +1,217 @@
+.header-decoration {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.082)), to(rgba(0, 0, 0, 0.582))), url(../img/coverr.bmp);
+  background: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.582)), url(../img/coverr.bmp);
+  width: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 99%);
+          clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 99%);
+}
+
+.section-gap-top {
+  padding-top: 100px;
+}
+
+.section-gap-top .title-aria {
+  margin-bottom: 300px;
+}
+
+.section-gap-top .title-aria h1 {
+  font-size: 34px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
+
+.section-gap-top .title-aria p {
+  color: #fff;
+  font-size: 18px;
+}
+
+.blood-input {
+  margin-top: -275px;
+}
+
+.blood-input .input-box {
+  padding: 90px 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(153, 153, 153, 0.2);
+          box-shadow: 0 20px 50px 0 rgba(153, 153, 153, 0.2);
+}
+
+#inputGroupSelect01 {
+  height: 50px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.btn.btn-danger.btn-block {
+  height: 50px;
+  border-radius: 0px;
+}
+
+.profile-cover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.082)), to(rgba(0, 0, 0, 0.582))), url(../img/coverr.bmp);
+  background: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.582)), url(../img/coverr.bmp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.profile-header {
+  margin-top: -145px;
+}
+
+.profile-header .profile-img img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 5px solid white;
+  border-radius: 100%;
+}
+
+.data-table-section {
+  margin-top: 50px;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #4CAF50;
+  /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.footer {
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.082)), to(rgba(0, 0, 0, 0.582))), url(../img/coverr.bmp);
+  background: linear-gradient(rgba(0, 0, 0, 0.082), rgba(0, 0, 0, 0.582)), url(../img/coverr.bmp);
+  -webkit-clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 26%, 100% 0, 100% 100%, 0% 100%);
+  padding-top: 150px !important;
+}
+
+.footer .links ul {
+  list-style-type: none;
+}
+
+.footer .links li a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .links li a:hover {
+  text-decoration: none;
+  color: #4180CB;
+}
+
+.footer .about-company i {
+  font-size: 25px;
+}
+
+.footer .about-company a {
+  color: white;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+
+.footer .about-company a:hover {
+  color: #4180CB;
+}
+
+.footer .location i {
+  font-size: 18px;
+}
+
+.footer .copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 20px 50px 0 rgba(153, 153, 153, 0.2);
+          box-shadow: 0 20px 50px 0 rgba(153, 153, 153, 0.2);
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+#login-box {
+  margin-top: 0px !important;
+}
+
+@media (max-width: 575.98px) {
+  .profile-cover .text-white.display-3 {
+    font-size: 3rem !important;
+  }
+  .result-section .container {
+    padding: 0px;
+  }
+  .result-section .table.table-bordered.text-wrap.table-sm.text-center {
+    font-size: 12px;
+  }
+  .result-section .btn.btn-primary {
+    padding: 2px;
+    font-size: 12px;
+  }
+  .profile-header .profile-title .text-capitalize.mb-0 {
+    font-size: 2rem !important;
+  }
+  .data-table-section .container {
+    padding: 0;
+  }
+  .data-table-section .table-data.col-10.m-auto.mt-4 {
+    margin: 0 !important;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .mt-5.pt-5.pb-5.footer {
+    -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%) !important;
+            clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%) !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .all-data {
+    resize: both;
+  }
+  .all-data .container-fluid .table.table-bordered.text-center {
+    font-size: 12px !important;
+  }
+  .all-data .btn.btn-danger {
+    font-size: 12px;
+  }
+  .all-data .btn.btn-primary {
+    font-size: 12px;
+  }
+}
